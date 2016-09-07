@@ -6,17 +6,16 @@
 public class FirstClass
 {
     // instance variables - replace the example below with your own
-    private int num1;
-    private int num2;
+    private int x;
+    private int y;
 
     /**
      * Constructor for objects of class FirstClass
      */
-    public FirstClass()
-    {
+    public FirstClass(){
         // initialise instance variables
-        num1 = 30;
-        num2 = 8;
+        x = num1;
+        y = num2;
     }
 
     /**

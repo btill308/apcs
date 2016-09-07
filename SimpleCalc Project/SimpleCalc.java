@@ -1,22 +1,20 @@
-
 /**
- * Write a description of class SimpleCalc here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *Brandon Till
+ *SimpleCalc
  */
 public class SimpleCalc
 {
     // instance variables - replace the example below with your own
     private int x;
-
+    private int y;
     /**
      * Constructor for objects of class SimpleCalc
      */
     public SimpleCalc()
     {
         // initialise instance variables
-        x = 0;
+        x = n1;
+        y = n2;
     }
 
     /**
@@ -25,9 +23,25 @@ public class SimpleCalc
      * @param  y   a sample parameter for a method
      * @return     the sum of x and y 
      */
-    public int sampleMethod(int y)
+    public int add()
     {
         // put your code here
         return x + y;
+    }
+    public int sub()
+    {
+        return x - y;
+    }
+    public int mult()
+    {
+        return x * y;
+    }
+    public int div()
+    {
+        return x / y;
+    }
+    public boolean isGreater()
+    {
+        return true;
     }
 }
