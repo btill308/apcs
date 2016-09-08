@@ -5,9 +5,9 @@
 public class SimpleCalcRunner
 {
     public static void main(String[] args){
-        int n1 = 3457;
-        int n2 = 123;
-        SimpleCalc sc = new SimpleCalc(n1, n2);
+        int n1 = 3826;
+        int n2 = 427;
+        SimpleCalc sc = new SimpleCalc();
         System.out.println("Numbers: " + n1 + "," + n2);
         System.out.println("The Sum is: " + sc.add());
         System.out.println("Subtraction: " + sc.sub());
