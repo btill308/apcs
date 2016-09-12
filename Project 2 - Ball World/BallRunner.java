@@ -23,6 +23,7 @@ public class BallRunner{
          else{
             ballBot.setHeading(ballBot.getHeading() + (90 + Math.random() * 360));
          }
+         ballBot.setPixelsPerSecond(1000);
          ballBot.setColor(11);
          /**
           * 00 - black
