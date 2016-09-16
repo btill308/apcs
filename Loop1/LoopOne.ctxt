@@ -1,8 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=LoopOne()
+comment0.target=int[]\ loadArray()
 comment1.params=
-comment1.target=int\ loadArray()
-comment2.params=
-comment2.target=void\ printArray()
-numComments=3
+comment1.target=void\ printArray()
+numComments=2

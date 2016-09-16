@@ -5,24 +5,31 @@
  */
 import java.util.Arrays;
 public class LoopTwo{
-    private int n;
-    private int i;
+    int n;
+    int i;
+    int sum;
     int[] loop = new int[n];
     public LoopTwo(){
-        n = 10;
+        n = 100;
     }
     public void loadRandom(){
         for(i = 0; i < loop.length; i++){
-            n = 1 + Math.random() * 9;
+            loop[i] = (int)(Math.random() * 10) + 1;
         }
     }
     public void printArray(){
-        
+        for(i = 0; i < loop.length; i++){
+            System.out.print(loop[i] + "\t");
+        }
     }
-    public void sortArray(){
-        
+    public int[] sortArray(){
+        Arrays.sort(loop);
+        return loop;
     }
     public double findAverage(){
-        
+        for(i = 0; i < loop.length; i++){
+            sum = sum + loop[i];
+        }
+        return sum / loop.length;
     }
 }
