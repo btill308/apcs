@@ -3,4 +3,6 @@ comment0.params=ballWorld\ entrancePoint\ ballBotArrayLength
 comment0.target=BallRunner(BallWorld,\ TGPoint,\ BallBot[])
 comment1.params=
 comment1.target=void\ activity1()
-numComments=2
+comment2.params=
+comment2.target=int\ freeBallBotIndex()
+numComments=3
