@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=countOddEven
+comment0.target=int[][]\ loadArray(int[][])
+comment1.params=countOddEven
+comment1.target=int\ countEven(int[][])
+comment2.params=countOddEven
+comment2.target=int\ countOdd(int[][])
+comment3.params=
+comment3.target=int\ getEven()
+comment4.params=
+comment4.target=int\ getOdd()
+numComments=5
