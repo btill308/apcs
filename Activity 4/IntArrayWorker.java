@@ -113,14 +113,22 @@ public class IntArrayWorker
     }
     
   public int getLargest(){
-      Arrays.sort(matrix);
-      int row = 0;
-      int col = 0;
-      for(row = 0; row < matrix.length; row++){
-          for(col = 0; col < matrix[row].length; col++){
-              
+      int largest = 0;
+      for(int row = 0; row < matrix.length; row++){
+          for(int col = 0; col < matrix[row].length; col++){
+              if(matrix[row][col] > largest){
+                  largest = matrix[row][col];
+                }
             }
         }
-      return matrix[row-1][col-1];
+      return largest;
+    }
+    
+  public int getColTotal(int n){
+      int sum = 0;
+      for(int row = 0; row < matrix.length; row++){
+              sum = sum + matrix[row][n];
+        }
+        return sum;
     }
 }
